@@ -1,10 +1,14 @@
 **INSTALACION**
 
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
 
+
 **AGREGAR ESTA VARIABLE AL .ENV GENERADO**
+
 
 API_ENDPOINT=https://jsonplaceholder.typicode.com
 
